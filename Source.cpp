@@ -50,7 +50,7 @@ string scramble_text(const string& text) {
     for (string& w : words) {
         w = string_scramble(w);
     }
-
+     
     // Join scrambled words back into a single string
     ostringstream oss;
     for (const string& w : words) {
